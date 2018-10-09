@@ -1,0 +1,14 @@
+
+div{
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+    background:#F8BBD0;
+}
+
+input {
+    font-family: inherit;
+    font-size: inherit;
+}
+input[type=number] {
+    text-align: right;
+}

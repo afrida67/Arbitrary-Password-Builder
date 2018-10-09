@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Password",
+    "description": "This extens random charactAPI.",
+    "version": "1.2",
+  
+    "browser_action": {
+     "default_popup": "pass.html"
+   },
+    "permissions": [
+     "activeTab"
+   ],
+   "content_scripts": [ {
+    "js": [ "pass.js" ],
+    "matches": [ "http://*/*", "https://*/*"]
+  }]
+  
+  }
+  

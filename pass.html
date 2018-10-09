@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta charset="UTF-8">
+        <title>Password Generator</title>
+        <link rel="stylesheet" href="pass.css">
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+    </head>
+    <body>
+    
+    <div class="col-lg-4 ">
+
+      <form id="myForm"> 
+
+        <h4>Create Password</h4>
+        <input type="text" id="pass" /><br />
+        <input type="button" id="click-this" value="Generate" />
+
+
+        <h4>Create Password with Numbers</h4>
+        <input type="text" id="pass2" /><br />
+        <input type="button" id="click-this-too" value="Only Numbers" />
+        
+
+                    <div>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td> <label for="by-length">Select Length of the Password:&#xA0;</label></td>
+                                    
+                                    <td><input type="number" min="0" value="10" step="1" id="length" style="width:4em" oninput="document.getElementById('by-length').checked=true;"> characters</td>
+                                 
+                                </tr>
+                            
+                            </tbody>
+                        </table>
+                    </div>
+        <input type="button" id="resetForm" value="Reset form">     
+        <br>
+        <br>
+    </form>
+</div>
+
+        <script src="pass.js"></script>
+    </body>
+</html>
