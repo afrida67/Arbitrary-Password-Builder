@@ -1,9 +1,11 @@
 {
     "manifest_version": 2,
   
-    "name": "Password",
-    "description": "Random password generator with all characters and also only number",
+    "name": "Arbitrary Password",
+    "description": "Creates random password with all characters and also only with the number",
     "version": "1.0.1",
+
+    "author": "Afrida",
   
     "browser_action": {
      "default_popup": "pass.html",
